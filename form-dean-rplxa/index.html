@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Form Data Siswa</h1>
+        <form action="">
+            <div class="form-group">
+                <label class="form-label" for="name">Name</label>
+                <input class="form-control" minlength="5" required type="text" id="name" placeholder="masukan nama">
+            </div>
+            <div class="form-group mt-3">
+                <label class="form-label" for="password">Password</label>
+                <input class="form-control" minlength="7" maxlength="30" required type="password" id="password" placeholder="masukan password">
+            </div>
+            <div class="form-group mt-3">
+                <label class="form-label" for="email">Email</label>
+                <input class="form-control" required type="email" id="email" placeholder="masukan email">
+            </div> 
+            <div class="form-group mt-3">
+                <label class="form-label" for="date">Date</label>
+                <input class="form-control" required type="date" id="date">
+            </div>
+            <div class="form-group mt-3">
+                <label class="form-label" for="number">Phone Number</label>
+                <input class="form-control" minlength="11" required type="number" id="number" placeholder="masukan no hp">
+            </div>
+            <button class="btn btn-primary mt-3 w-100">Submit</button>
+        </form>
+    </div>
+    <div class="container mt-5">
+        <h1 class="text-center">Search Youtube</h1>
+        <form action="https://www.youtube.com/results?search_query=">
+            <div class="form-group">
+                <label class="form-label" for="search_query">Search Youtube :</label>
+                <input class="form-control" type="text" name="search_query" id="search">
+                <button type="submit" class="btn btn-primary mt-3 mb-3 w-100">Search</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
